@@ -15,14 +15,10 @@ function AshokTextiles() {
       ];
   return (
     <section>
-      <div className="text-center">
-        <h1 className="text-xl tracking-wider md:text-6xl lg:text-7xl font-bold flex  items-center">
-          <span className="text-brown-700 text-[7rem] md:text-[10rem] font-extrabold"><img src={A}></img></span>
-          <span className="ml-2 absolute  left-44 md:left-52">
-            <span className="text-orange-500">Ashok Textiles</span> - Project
-          </span>
-        </h1>
-      </div>
+       <div className="bg-black text-white flex items-center py-2">
+                <h1 className="text-[300px] font-bold leading-[450px] text-bigText ">A</h1>
+                <span className=" text-[70px] font-bold leading-[105px] tracking-wider ml-[-40px] text-center mt-5"><span className="text-lightOrange">A</span>shok Textiles</span>
+            </div>
 
       <div className="bg-black flex lg:ms-96 justify-center text-white  py-8 px-4">
   <div className="flex justify-end items-center gap-8 flex-wrap">

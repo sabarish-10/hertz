@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import ProductsSection from "./components/ProductsSection";
 import FeaturesSection from "./components/FeaturesSection";
 import AshokTextiles from "./components/ashokTextiles";
+import ProjectManagement from "./components/projectManagement";
 import "./App.css";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <ProductsSection />
       <FeaturesSection/>
       <AshokTextiles/>
+      <ProjectManagement/>
     </div>
   );
 }
