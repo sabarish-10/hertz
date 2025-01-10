@@ -39,7 +39,7 @@ function FeaturesSection() {
   ];
 
   return (
-    <section className="text-center">
+    <section className="text-center font-segoe">
       <h2 className="text-3xl lg:text-4xl font-bold mb-4">
         <span className="text-blue-500">Key Features</span> of Our Projects
       </h2>

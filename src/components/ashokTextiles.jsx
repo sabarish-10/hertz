@@ -13,7 +13,7 @@ function AshokTextiles() {
     { label: "Feedback", icon: uil },
   ];
   return (
-    <section>
+    <section className=" font-segoe">
       <div className="bg-black text-white flex flex-col sm:flex-row items-center py-2">
         <h1 className="text-[120px] sm:text-[200px] md:text-[300px] font-bold leading-[150px] sm:leading-[250px] md:leading-[450px] text-bigText">
           A

@@ -2,7 +2,7 @@ import React from "react";
 import obj  from "../assets/obj.png";
 function ProductsSection(){
   return (
-    <section className="my-16 bg-black text-white text-center">
+    <section className="my-16 bg-black text-white text-center font-segoe">
       <h2 className="text-4xl lg:text-5xl font-bold text-orange-500 glow-effect mb-4">
         Our Products
       </h2>

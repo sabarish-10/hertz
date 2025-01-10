@@ -2,7 +2,7 @@ import textileshubComputer from "../assets/textileshubComputer.svg"
 export default function FleetPulseProject() {
   return (
     <>
-      <div className=" mx-10 bg-black text-white flex flex-col sm:flex-row items-center">
+      <div className=" mx-10 bg-black text-white flex flex-col sm:flex-row items-center font-segoe">
         <h1 className="text-[120px] sm:text-[200px] md:text-[300px] font-bold leading-[150px] sm:leading-[250px] md:leading-[450px] text-bigText lg:me-10">
           F
         </h1>
@@ -11,7 +11,7 @@ export default function FleetPulseProject() {
         </span>
       </div>
 
-      <div className="pb-3 flex items-center justify-center px-5 mt-5">
+      <div className="pb-3 flex items-center justify-center px-5 mt-5 font-segoe">
         <div className="max-w-6xl text-white tracking-wide">
           <h1 className="text-3xl font-bold">
             <span className="text-orange-500">Empowering Your</span> Digital Vision

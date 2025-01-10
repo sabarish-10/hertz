@@ -5,7 +5,7 @@ import medMockup from "../assets/MedAppMockup.png"
 function MediApp() {
     return (
         <>
-            <div className="mx-10 bg-black text-white flex flex-col sm:flex-row items-center py-2">
+            <div className="mx-10 bg-black text-white flex flex-col sm:flex-row items-center py-2 font-segoe">
                 <h1 className="text-[120px] sm:text-[200px] md:text-[300px] font-bold leading-[150px] sm:leading-[250px] md:leading-[450px] text-bigText">
                     M
                 </h1>
@@ -24,7 +24,7 @@ function MediApp() {
                 <img src={medMockup} alt="Mockup Image" className="max-w-full px-5" />
             </div>
 
-            <div className="bg-black w-full px-5 py-6">
+            <div className="bg-black w-full px-5 py-6 font-segoe">
                 <h1 className="border-2 border-dotted border-lightOrange rounded text-[20px] sm:text-[24px] lg:text-[28px] font-normal leading-[30px] sm:leading-[34px] lg:leading-[37px] text-white px-5 py-4 sm:py-5 lg:py-6 mx-auto text-left">
                     <span className="text-lightOrange block text-[24px] sm:text-[28px] lg:text-[32px] font-semibold mb-2">
                         Medi App (Web and App)
@@ -33,14 +33,14 @@ function MediApp() {
                 </h1>
             </div>
 
-            <div className="bg-black px-5 py-6">
+            <div className="bg-black px-5 py-6 font-segoe">
                 <h1 className="text-custom-base sm:text-custom-md lg:text-custom-lg font-semi-bold leading-custom-base sm:leading-custom-md lg:leading-custom-lg text-white">
                     <span className="text-lightOrange">Navigating</span> the MediApp Experience
                 </h1>
                 <p className="text-white text-[18px] font-normal text-lightGray2 pt-3 max-w-full lg:max-w-5xl">At MediApp, we’ve streamlined the process to make managing your healthcare needs as effortless as possible. Here's a step-by-step guide to how it works.</p>
             </div>
 
-            <div className="bg-black py-12 px-5">
+            <div className="bg-black py-12 px-5 font-segoe">
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                     <div className="text-white shadow-lg border-l-2 md:mb-14" style={{
                         borderImage: "linear-gradient(to bottom, #FE5D26, black) 1",
