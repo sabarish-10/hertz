@@ -6,7 +6,8 @@ import AshokTextiles from "./components/ashokTextiles";
 import ProjectManagement from "./components/projectManagement";
 import "./App.css";
 import MediApp from "./components/mediApp";
-
+import TextilesHub from "./components/TextilesHub";
+import FleetPulseProject from "./components/FleetPulseProject";
 function App() {
   return (
     <div className="bg-black text-white h-full whole">
@@ -16,6 +17,8 @@ function App() {
       <AshokTextiles/>
       <ProjectManagement/>
       <MediApp/>
+      <TextilesHub/>
+      <FleetPulseProject/>
     </div>
   );
 }

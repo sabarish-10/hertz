@@ -2,7 +2,7 @@
 const ProjectManagement = () => {
     return (
       <div className="bg-black text-white font-segoe ">
-        <div className="mx-auto px-6 py-12 "> 
+        <div className="mx-auto px-6 py-5"> 
           {/* Header Section */}
           <div className=" px-12 py-10 border border-cust ">
             <h1 className=" mb-4 text-[35.51px] font-semibold leading-[47.23px]">Project Management</h1>

@@ -5,7 +5,7 @@ import medMockup from "../assets/MedAppMockup.png"
 function MediApp() {
     return (
         <>
-            <div className="bg-black text-white flex flex-col sm:flex-row items-center py-2">
+            <div className="mx-10 bg-black text-white flex flex-col sm:flex-row items-center py-2">
                 <h1 className="text-[120px] sm:text-[200px] md:text-[300px] font-bold leading-[150px] sm:leading-[250px] md:leading-[450px] text-bigText">
                     M
                 </h1>
