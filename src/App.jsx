@@ -6,6 +6,7 @@ import AshokTextiles from "./components/ashokTextiles";
 import ProjectManagement from "./components/projectManagement";
 import "./App.css";
 import MediApp from "./components/mediApp";
+import EggsProApp from "./components/eggsProApp";
 import TextilesHub from "./components/TextilesHub";
 import FleetPulseProject from "./components/FleetPulseProject";
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <AshokTextiles/>
       <ProjectManagement/>
       <MediApp/>
+      <EggsProApp/>
       <TextilesHub/>
       <FleetPulseProject/>
     </div>
