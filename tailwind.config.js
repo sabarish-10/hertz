@@ -11,7 +11,8 @@ export default {
         cust: '#262626', 
         lightOrange: '#FE5D26',
         grayCustom: '#98989A',
-        bigText:'#FE5D264D'
+        bigText:'#FE5D264D',
+        lightGray2:'#999999',
       },
       borderRadius: {
         'custom-lg': '0.74px',
@@ -21,6 +22,19 @@ export default {
       },
       fontFamily: {
         segoe: ['"Segoe UI"', 'sans-serif'], 
+      },
+      fontSize: {
+        'custom-base': '28px',
+        'custom-md': '32px',
+        'custom-lg': '36.67px',
+      },
+      fontWeight: {
+        'semi-bold': 600,
+      },
+      lineHeight: {
+        'custom-base': '40px',
+        'custom-md': '50px',
+        'custom-lg': '55px',
       },
     },
   },

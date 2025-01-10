@@ -5,6 +5,7 @@ import FeaturesSection from "./components/FeaturesSection";
 import AshokTextiles from "./components/ashokTextiles";
 import ProjectManagement from "./components/projectManagement";
 import "./App.css";
+import MediApp from "./components/mediApp";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <FeaturesSection/>
       <AshokTextiles/>
       <ProjectManagement/>
+      <MediApp/>
     </div>
   );
 }
