@@ -1,5 +1,5 @@
 import React from "react";
-import obj  from "../assets/obj.png";
+import obj  from "/assets/obj.png";
 function ProductsSection(){
   return (
     <section className="my-16 bg-black text-white text-center font-segoe">

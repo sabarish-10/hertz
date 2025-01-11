@@ -1,9 +1,9 @@
 import React from "react";
-import timelyDelivery from "../assets/timelyDelivery.svg"
-import userCentric from "../assets/userCentric.svg"
-import cuttingEdge from "../assets/cuttingEdge.svg"
-import customizedSolution from "../assets/customizedSolution.svg"
-import strategic from "../assets/strategic.svg" 
+import timelyDelivery from "/assets/timelyDelivery.svg"
+import userCentric from "/assets/userCentric.svg"
+import cuttingEdge from "/assets/cuttingEdge.svg"
+import customizedSolution from "/assets/customizedSolution.svg"
+import strategic from "/assets/strategic.svg" 
 function FeaturesSection() {
   const features = [
     {

@@ -1,6 +1,6 @@
-import medImg from "../assets/MedApp.png"
-import medBg from "../assets/MedAppBg.png"
-import medMockup from "../assets/MedAppMockup.png"
+import medImg from "/assets/MedApp.png"
+import medBg from "/assets/MedAppBg.png"
+import medMockup from "/assets/MedAppMockup.png"
 
 function MediApp() {
     return (

@@ -1,6 +1,6 @@
-import TextilesHubImg from "../assets/textilesHubImg.png"
-import textilesHubTechStack from "../assets/textilesHubTechStack.png"
-import textilesGoodDesign from "../assets/textilesGoodDesign.svg"
+import TextilesHubImg from "/assets/textilesHubImg.png"
+import textilesHubTechStack from "/assets/textilesHubTechStack.png"
+import textilesGoodDesign from "/assets/textilesGoodDesign.svg"
 export default function TextilesHub() {
   return (
     <>

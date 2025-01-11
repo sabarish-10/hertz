@@ -1,5 +1,5 @@
-import EggsMob from "../assets/EggsProMob.png"
-import EggsiPad from "../assets/EggsProiPad.png"
+import EggsMob from "/assets/EggsProMob.png"
+import EggsiPad from "/assets/EggsProiPad.png"
 
 export default function EggsProApp() {
     return (

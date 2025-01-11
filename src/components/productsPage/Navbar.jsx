@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/logo.svg"
+import logo from "/assets/logo.svg"
 function Navbar() {
   return (
     <nav className="flex justify-between items-center  mx-4 p-4 bg-black text-white">

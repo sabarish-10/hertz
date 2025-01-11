@@ -1,4 +1,4 @@
-import textileshubComputer from "../assets/textileshubComputer.svg"
+import textileshubComputer from "/assets/textileshubComputer.svg"
 export default function FleetPulseProject() {
   return (
     <>
@@ -26,7 +26,7 @@ export default function FleetPulseProject() {
       </div>
 
       <div className="py-4  flex items-center justify-center ">
-        <img src={textileshubComputer} />
+        <img src={textileshubComputer}/>
       </div>
     </>
   )

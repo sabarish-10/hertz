@@ -1,10 +1,10 @@
-import fluent from "../assets/fluent_design-ideas-24-filled.svg"
-import la from "../assets/la_connectdevelop.svg"
-import nrk from "../assets/nrk_latest-news.svg"
-import uil from "../assets/uil_feedback.svg"
-import textilesimageGrp from "../assets/textilesPhotoGrp.svg"
-import image from "../assets/ashokTextilesImg.svg"
-import flow from "../assets/Flow.svg"
+import fluent from "/assets/fluent_design-ideas-24-filled.svg"
+import la from "/assets/la_connectdevelop.svg"
+import nrk from "/assets/nrk_latest-news.svg"
+import uil from "/assets/uil_feedback.svg"
+import textilesimageGrp from "/assets/textilesPhotoGrp.svg"
+import image from "/assets/ashokTextilesImg.svg"
+import flow from "/assets/Flow.svg"
 function AshokTextiles() {
   const buttons = [
     { label: "Design", icon: fluent },
