@@ -16,15 +16,15 @@ function MediApp() {
 
 
             <div className="relative bg-black border-none">
-                <img src={medBg} alt="Background" className="absolute inset-0 w-full h-full object-cover" />
+                <img src={medBg} alt="Background" className="absolute inset-0  h-full object-cover" />
                 <img src={medImg} alt="Med App Sample Display" className="relative z-10 mx-auto my-auto center px-5 pt-8" />
             </div>
 
             <div className="bg-black flex items-center justify-center border-none   ">
-                <img src={medMockup} alt="Mockup Image" className="max-w-full px-5" />
+                <img src={medMockup} alt="Mockup Image" className=" px-5" />
             </div>
 
-            <div className="bg-black w-full px-5 py-6 font-segoe">
+            <div className="bg-black px-5 py-6 font-segoe">
                 <h1 className="border-2 border-dotted border-lightOrange rounded text-[20px] sm:text-[24px] lg:text-[28px] font-normal leading-[30px] sm:leading-[34px] lg:leading-[37px] text-white px-5 py-4 sm:py-5 lg:py-6 mx-auto text-left">
                     <span className="text-lightOrange block text-[24px] sm:text-[28px] lg:text-[32px] font-semibold mb-2">
                         Medi App (Web and App)
@@ -37,7 +37,7 @@ function MediApp() {
                 <h1 className="text-custom-base sm:text-custom-md lg:text-custom-lg font-semi-bold leading-custom-base sm:leading-custom-md lg:leading-custom-lg text-white">
                     <span className="text-lightOrange">Navigating</span> the MediApp Experience
                 </h1>
-                <p className="text-white text-[18px] font-normal text-lightGray2 pt-3 max-w-full lg:max-w-5xl">At MediApp, we’ve streamlined the process to make managing your healthcare needs as effortless as possible. Here's a step-by-step guide to how it works.</p>
+                <p className="text-white text-[18px] font-normal text-lightGray2 pt-3 lg:max-w-5xl">At MediApp, we’ve streamlined the process to make managing your healthcare needs as effortless as possible. Here's a step-by-step guide to how it works.</p>
             </div>
 
             <div className="bg-black py-12 px-5 font-segoe">

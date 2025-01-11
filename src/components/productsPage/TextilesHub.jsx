@@ -17,7 +17,7 @@ export default function TextilesHub() {
       </div>
 
       <div className="bg-black  flex items-center   justify-center p-6 font-segoe">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-7xl w-full">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-7xl">
           <div className="flex items-center justify-center">
             <ul className="space-y-4 list-disc tracking-wider lg:w-11/12">
               <li>
@@ -42,12 +42,12 @@ export default function TextilesHub() {
           </div>
 
           <div className="flex  items-center">
-            <img src={textilesHubTechStack} className="w-full" />
+            <img src={textilesHubTechStack} className="" />
           </div>
         </div>
       </div>
 
-      <div className="w-full flex items-center justify-center">
+      <div className=" flex items-center justify-center">
         <img src={textilesGoodDesign} />
       </div>
     </>

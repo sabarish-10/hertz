@@ -1,26 +1,9 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import ProductsSection from "./components/ProductsSection";
-import FeaturesSection from "./components/FeaturesSection";
-import AshokTextiles from "./components/ashokTextiles";
-import ProjectManagement from "./components/projectManagement";
-import "./App.css";
-import MediApp from "./components/mediApp";
-import EggsProApp from "./components/eggsProApp";
-import TextilesHub from "./components/TextilesHub";
-import FleetPulseProject from "./components/FleetPulseProject";
+import ProductsMain from "./components/productsPage/productsMain";
 function App() {
   return (
     <div className="bg-black text-white h-full whole">
-      <Navbar />
-      <ProductsSection />
-      <FeaturesSection/>
-      <AshokTextiles/>
-      <ProjectManagement/>
-      <MediApp/>
-      <EggsProApp/>
-      <TextilesHub/>
-      <FleetPulseProject/>
+     <ProductsMain/>
     </div>
   );
 }

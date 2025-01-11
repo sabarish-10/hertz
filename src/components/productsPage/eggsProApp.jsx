@@ -19,7 +19,7 @@ export default function EggsProApp() {
             </div>
 
             <div className="md:pt-[70px] lg:pt-[100px] bg-black text-white flex items-center justify-center px-6 font-segoe">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl w-full">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl">
                     <div className=" p-10 rounded-lg shadow-md border border-[#333] h-fit mt-10 ">
                         <h2 className=" mb-4 text-[18.05px] font-bold">Description</h2>
                         <p className="text-lightGray2 text-[13.53px] font-normal">

@@ -25,7 +25,7 @@ export default function FleetPulseProject() {
         </div>
       </div>
 
-      <div className="py-4 w-full flex items-center justify-center ">
+      <div className="py-4  flex items-center justify-center ">
         <img src={textileshubComputer} />
       </div>
     </>
