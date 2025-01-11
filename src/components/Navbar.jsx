@@ -18,7 +18,7 @@ function Navbar() {
         <li className="hover:text-orange-500">Career</li>
         <li className="hover:text-orange-500">Contact Us</li>
       </ul>
-      <button className="border border-orange-400  text-orange-400 p-2 mx-4 rounded hover:bg-orange-500 hover:text-white">
+      <button className="border border-orange-400   p-2 mx-4 rounded hover:bg-orange-500 hover:text-white">
         Enquire Now
       </button>
     </nav>

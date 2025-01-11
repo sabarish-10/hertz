@@ -4,7 +4,7 @@ import EggsiPad from "../assets/EggsProiPad.png"
 export default function EggsProApp() {
     return (
         <>
-            <div className="bg-black text-white flex flex-col sm:flex-row items-center py-2 font-segoe">
+            <div className="bg-black text-white sm:mx-5 mx-10 flex flex-col sm:flex-row items-center py-2 font-segoe">
                 <h1 className="text-[120px] sm:text-[200px] md:text-[300px] font-bold leading-[150px] sm:leading-[250px] md:leading-[450px] text-bigText">
                     E
                 </h1>
@@ -13,7 +13,7 @@ export default function EggsProApp() {
                 </span>
             </div>
 
-            <div className="bg-black items-center flex flex-col px-5">
+            <div className="bg-black items-center justify-center flex flex-col px-5">
                 <img className="pb-12" src={EggsiPad} alt="" />
                 <img src={EggsMob} alt="" />
             </div>

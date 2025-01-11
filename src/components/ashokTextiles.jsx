@@ -14,7 +14,7 @@ function AshokTextiles() {
   ];
   return (
     <section className=" font-segoe">
-      <div className="bg-black text-white flex flex-col sm:flex-row items-center py-2">
+      <div className="bg-black text-white flex flex-col sm:flex-row items-center mx-5  py-2">
         <h1 className="text-[120px] sm:text-[200px] md:text-[300px] font-bold leading-[150px] sm:leading-[250px] md:leading-[450px] text-bigText">
           A
         </h1>
@@ -23,12 +23,12 @@ function AshokTextiles() {
         </span>
       </div>
 
-      <div className="bg-black flex lg:ms-96 justify-center text-white  py-8 px-4">
-        <div className="flex justify-end items-center gap-8 flex-wrap">
+      <div className="bg-black flex items-center justify-end text-white mt-4 lg:mt-0 mb-10 mx-10">
+        <div className="flex justify-center items-center gap-8 flex-wrap">
           {buttons.map((button, index) => (
             <button
               key={index}
-              className="flex items-center  gap-4 space-x-3 px-4 py-3 border-2 border-orange-500 rounded-tr-2xl hover:bg-orange-500 hover:text-black transition"
+              className="flex items-center  gap-4 space-x-3 px-4 py-3 border-2 border-orange-500 rounded-tr-xl hover:bg-orange-500 hover:text-black transition"
             >
               <img className="text-lg" src={button.icon}></img>
               <span className="text-base font-medium">{button.label}</span>
@@ -36,8 +36,8 @@ function AshokTextiles() {
           ))}
         </div>
       </div>
-      <div className="flex items-center justify-center  bg-black px-5 ">
-        <img src={textilesimageGrp}></img>
+      <div className="flex items-center justify-center  bg-black ">
+        <img src={textilesimageGrp} className=" ms-3 md:ms-5 lg:ms-10"></img>
       </div>
       <div className=" my-20 ">
         <img className="w-screen" src={image}></img>
