@@ -36,8 +36,8 @@ function AshokTextiles() {
           ))}
         </div>
       </div>
-      <div className="flex items-center justify-center  bg-black ">
-        <img src={textilesimageGrp} className=" ms-3 md:ms-5 lg:ms-10"></img>
+      <div className="flex items-center justify-center  bg-black px-5">
+        <img src={textilesimageGrp} ></img>
       </div>
       <div className=" my-20 ">
         <img className="w-screen" src={image}></img>
