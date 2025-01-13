@@ -5,12 +5,12 @@ function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="flex justify-between items-center mx-4 p-4 bg-black text-white font-segoe">
+    <nav className="flex justify-between items-center mx-4 p-4 bg-black text-white font-segoe ">
       <div className="flex items-center">
         <img src={logo} alt="Logo" className="w-36 h-14 mx-4" />
       </div>
 
-      <ul className="hidden md:flex items-center space-x-6 text-sm">
+      <ul className="hidden md:flex items-center space-x-6 text-sm ">
         <li className="hover:text-orange-500">Home</li>
         <li className="hover:text-orange-500">Services</li>
         <li className="border rounded border-gray-800 border-opacity-80 text-orange-500 p-2 ">Products</li>

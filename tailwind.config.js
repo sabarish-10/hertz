@@ -22,6 +22,7 @@ export default {
       },
       fontFamily: {
         segoe: ['"Segoe UI"', 'sans-serif'], 
+        urbanist: ['Urbanist', 'sans-serif'], 
       },
       backgroundImage: {
         'custom-radial': 'radial-gradient(circle,rgb(245, 110, 0),rgb(27, 14, 1),rgb(12, 8, 3))',
@@ -44,9 +45,6 @@ export default {
         'custom-base': '40px',
         'custom-md': '50px',
         'custom-lg': '55px',
-      },
-      fontFamily: {
-        urbanist: ['Urbanist', 'sans-serif'], 
       },
       fontSize: {
         '11.25': '11.25px', 
