@@ -45,6 +45,12 @@ export default {
         'custom-md': '50px',
         'custom-lg': '55px',
       },
+      fontFamily: {
+        urbanist: ['Urbanist', 'sans-serif'], 
+      },
+      fontSize: {
+        '11.25': '11.25px', 
+      },
     },
   },
   plugins: [],
