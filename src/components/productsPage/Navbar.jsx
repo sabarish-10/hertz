@@ -11,11 +11,11 @@ function Navbar() {
       </div>
 
       <ul className="hidden md:flex items-center space-x-6 text-sm ">
-        <li className="hover:text-orange-500">Home</li>
-        <li className="hover:text-orange-500">Services</li>
+        <li className="hover:text-orange-500 p-2 ">Home</li>
+        <li className="hover:text-orange-500 p-2 ">Services</li>
         <li className="border rounded border-gray-800 border-opacity-80 text-orange-500 p-2 ">Products</li>
-        <li className="hover:text-orange-500">Career</li>
-        <li className="hover:text-orange-500">Contact Us</li>
+        <li className="hover:text-orange-500 p-2 ">Career</li>
+        <li className="hover:text-orange-500 p-2 ">Contact Us</li>
       </ul>
 
       <button className="hidden md:block border border-lightOrange p-2 px-5 py-3 font-urbanist text-11.25 font-medium mx-4 rounded hover:bg-orange-500 hover:text-white ">
